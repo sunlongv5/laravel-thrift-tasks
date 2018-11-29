@@ -1,0 +1,124 @@
+/*跟进明细*/
+.form-control{
+	border-radius: 5px;
+}
+
+.box-section{
+	padding: 10px 20px 20px;
+	background: #E5E5E5;
+	margin-bottom: 20px;
+}
+.section-h3{
+	float: left;
+	width: 100px;
+}
+.rbtn{
+	padding: 4px 12px;
+}
+/*.base-success, .company-success, .linkman-success{
+	display: none;
+}*/
+
+.row-space {
+	margin-bottom: 15px;
+}
+.show-space {
+	margin-right: 15px;
+	margin-bottom: 15px !important;
+}
+.quote-search {
+	margin-left: 10px;
+}
+
+.base-channel-source-other, .base-need-type-other {
+	display: none;
+}
+
+.section-content .col-xs-2{
+	padding-right: 0 !important;
+}
+
+/*公司简介*/
+.com_info{
+	float: left;
+	width: 100%;
+}
+.com_info label{
+	float: left;
+}
+.com_info span{
+	word-break: break-all;
+}
+
+/*.base-source, .base-adtag, .base-grade, .base-status, .base-mobile, .base-email, .base-wechat, .base-qq, .com_name, .com_type, .address, .com_email, .com_website, .com_fixed_tel, .com_fax, .project_name, .main_brand, .com_scale, .com_desc{
+	display: none;
+}*/
+
+/*联系人*/
+.linkman-piece{
+	float: left;
+    margin-left: 15px;
+}
+
+/*发票*/
+.inv-info{
+	cursor: pointer;
+}
+.show-bank-info{
+	display: none;
+}
+
+/*跟进记录列表*/
+.show-title {
+  width: 300px; 
+  overflow:hidden; 
+  white-space:nowrap; 
+  text-overflow:ellipsis;
+  margin-bottom: 0;
+}
+.table{
+	border-bottom: 1px solid #e8e8e8;
+}
+
+/*新增跟进记录*/
+.show-quote-info {
+	display: none;
+}
+.show-quote-info .col-sm-2{
+	margin-top: 5px;
+}
+.add-quote-table > tbody > tr > td, .edit-quote-table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+/*备注提醒*/
+.show-notice, .show-other-content{
+	display: none;
+}
+/* 行展示内容样式 */
+.show-list {
+  cursor: pointer;
+}
+.show-other-content {
+  display: none;
+}
+.table-list-title {
+  width: 10%;
+  color: #343434;
+  font-weight: bold;
+}
+.table-list-content {
+  width: 40%;
+}
+
+/*模糊匹配*/
+.show-query-box {
+	display: none;
+	position: absolute;
+	width: 395px;
+	height: 240px;
+	border: 1px solid #ddd;
+	overflow-y: auto;
+	z-index: 2;
+	background: #fff;
+}

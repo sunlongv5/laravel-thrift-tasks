@@ -1,0 +1,16 @@
+Homestead.yaml
+Homestead.json
+.env
+# ide
+.idea
+*.properties
+*.iml
+composer.lock
+Homestead.yaml
+Homestead.json
+/components
+/storage/app
+/storage/framework
+/storage/logs
+/.idea
+/storage/debugbar

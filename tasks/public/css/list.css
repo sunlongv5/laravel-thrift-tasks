@@ -1,0 +1,24 @@
+/*搜索条*/
+input, select, textarea{
+	border-radius: 4px !important;
+}
+.search-bar>.form-group{
+	margin-right: 30px;
+}
+.search-list, .add-customer{
+	/*float: right;*/
+}
+.search-list, .add-customer{
+	margin-left: 10px;
+}
+.show-title {
+  width: 300px; 
+  overflow:hidden; 
+  white-space:nowrap; 
+  text-overflow:ellipsis;
+  margin-bottom: 0;
+}
+.show-space {
+	margin-right: 15px;
+	margin-bottom: 15px !important;
+}
