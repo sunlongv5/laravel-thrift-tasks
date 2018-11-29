@@ -1,0 +1,25 @@
+{
+    "name": "sunlong/thrift-laravel",
+    "description": "use Thrift in Laravel",
+    "keywords": [
+        "thrift",
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/http": "5.1.*|5.2.*",
+        "illuminate/support": "5.1.*|5.2.*",
+        "symfony/http-foundation": "2.7.*|2.8.*|3.0.*",
+        "sunlong/thrift": "^0.9.3.5"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sunlong\\Thrift\\": "src/"
+        }
+    }
+}
