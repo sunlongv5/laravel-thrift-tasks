@@ -1,0 +1,14 @@
+/vendor
+/node_modules
+/storage/database.sqlite
+/storage
+/storage/framework/views
+Homestead.yaml
+Homestead.json
+.env
+composer.lock
+/public/uploads
+# ide
+.idea
+*.properties
+*.iml
